@@ -3,7 +3,7 @@ body {
     font-size: 16px;
     line-height: 1;
   }
-  
+ 
   textarea {
     background: transparent;
     border: none;
@@ -16,7 +16,7 @@ body {
   .jumbotron {
     text-align: center;
     background-color: transparent;
-    color: black;
+    color: rgb(0, 0, 0);
     border-radius: 0;
     border-bottom: 10px solid black;
   }
@@ -59,8 +59,8 @@ body {
   
   .saveBtn {
     border-left: 1px solid rgba(129, 24, 150, 0.674);
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-top-right-radius: 23px;
+    border-bottom-right-radius: 23px;
     background-color: #c52fe0;
     color: white;
   }
@@ -69,7 +69,7 @@ body {
     font-size: 20px;
     transition: all 0.3s ease-in-out;
   }
-  /* Media Query for tablets and smaller screens */
+  /* Media Query for tablets and smaller screens
   @media screen and (max-width: 768px), screen and (max-width: 575px) {
     .row {
       height: auto;
@@ -91,4 +91,4 @@ body {
       border: 0;
     }
   }
-  
+  */
