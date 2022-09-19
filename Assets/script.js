@@ -22,7 +22,7 @@ for (var i = 0; i < 9; i++) {
         console.log(i);
         document.getElementById(i).classList.add("future");
     }
-    // gets 
+
     if(localStorage.getItem(i)){
         document.getElementById(i).value = localStorage.getItem(i);
         console.log(localStorage)
