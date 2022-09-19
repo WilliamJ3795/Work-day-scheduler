@@ -26,7 +26,17 @@ for (var i = 0; i < 9; i++) {
     if(localStorage.getItem(i)){
         document.getElementById(i).value = localStorage.getItem(i);
         console.log(localStorage)
-        console.log(getItem)
     }
+    // once user clicks the saveBtn..
+    saveBtn[i].addEventListener("click", function(){
+       // the "this" keyword calls the object associated in this function [i] 
+      // and attaches it to the the attribute in the html, this is all delclared in the var as "id"
+        var id = this.getAttribute("data-id");
+        var text = document.getElementById(id).value;
+    // the variable "text" returns value of (id) to the html through DOM manipulation
+        localStorage.setItem(id,text);
+        // info stored in local storage is set to (id) and (text)
+        console.log(text);
+    })
 
 }
