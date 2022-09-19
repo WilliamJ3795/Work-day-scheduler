@@ -26,3 +26,5 @@ HTML, Bootstrap, CSS, JavaScript, moment.js, jQuery
 The following animation demonstrates the application functionality:
 
 ![](work-day-scheduler.gif.gif)
+## Deployment Site
+https://williamj3795.github.io/Work-day-scheduler/
