@@ -22,5 +22,7 @@ THEN the saved events persist
 
 ## Tech Used
 HTML, Bootstrap, CSS, JavaScript, moment.js, jQuery
-##
+
 The following animation demonstrates the application functionality:
+
+![](work-day-scheduler.gif.gif)
