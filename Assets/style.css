@@ -62,11 +62,11 @@ body {
     border-left: 1px solid rgba(0, 0, 0, 0.674);
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #2f90e0;
+    background-color: #0e981c;
     color: white;
   }
   
   .saveBtn i:hover {
-    font-size: 30px;
+    font-size: 50px;
     transition: all 0.2s ease-in-out;
   }
