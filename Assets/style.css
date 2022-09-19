@@ -20,7 +20,7 @@ body {
     border-radius: 0;
     border-bottom: 10px solid black;
   }
-  
+
   .description {
     white-space: pre-wrap;
   }
@@ -44,51 +44,38 @@ body {
   
   .past {
     background-color: #d3d3d3;
+    border-radius: 15px;
     color: white;
   }
   
   .present {
     background-color: #ff6961;
-    color: white;
+    border-radius: 15px;
   }
   
   .future {
     background-color: #77dd77;
-    color: white;
+    border-radius: 15px;
   }
   
   .saveBtn {
-    border-left: 1px solid rgba(129, 24, 150, 0.674);
-    border-top-right-radius: 23px;
-    border-bottom-right-radius: 23px;
-    background-color: #c52fe0;
+    border-left: 1px solid rgba(0, 0, 0, 0.674);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #2f90e0;
     color: white;
   }
   
   .saveBtn i:hover {
-    font-size: 20px;
-    transition: all 0.3s ease-in-out;
+    font-size: 30px;
+    transition: all 0.2s ease-in-out;
   }
-  /* Media Query for tablets and smaller screens
-  @media screen and (max-width: 768px), screen and (max-width: 575px) {
-    .row {
-      height: auto;
-      margin-top: 20px;
-    }
   
-    .hour {
-      padding-right: 17%;
-    }
-  
-    .saveBtn {
-      border: 0;
-      border-radius: 0.25rem;
-      height: 50px;
-    }
-  
-    textarea {
-      min-height: 85px;
-      border: 0;
-    }
+  footer {
+    background-color: #3c3d41;
+    padding: 40px 20px;
+    color: rgba(255,255,255,1.00);
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 6px;
   }
-  */
